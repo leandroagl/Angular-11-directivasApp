@@ -22,7 +22,7 @@ export class AgregarComponent  {
   }
 
   cambiarNombre() {
-    this.texto1 = "Roberto Carlos";
+    this.texto1 = Math.random().toString();
   }
 
   cambiarColor() {
